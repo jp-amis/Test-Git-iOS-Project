@@ -14,6 +14,7 @@
 		E8B256A31B01AB9000C3089C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B256A21B01AB9000C3089C /* Images.xcassets */; };
 		E8B256A61B01AB9000C3089C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B256A41B01AB9000C3089C /* LaunchScreen.xib */; };
 		E8B256B21B01AB9200C3089C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B256B11B01AB9200C3089C /* Git_TestTests.m */; };
+		E8B256BD1B01AE8C00C3089C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B256BC1B01AE8C00C3089C /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E8B256AB1B01AB9000C3089C /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B256B01B01AB9200C3089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8B256B11B01AB9200C3089C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E8B256BB1B01AE8C00C3089C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E8B256BC1B01AE8C00C3089C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E8B256A21B01AB9000C3089C /* Images.xcassets */,
 				E8B256A41B01AB9000C3089C /* LaunchScreen.xib */,
 				E8B256951B01AB9000C3089C /* Supporting Files */,
+				E8B256BB1B01AE8C00C3089C /* Test.h */,
+				E8B256BC1B01AE8C00C3089C /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B2569E1B01AB9000C3089C /* ViewController.m in Sources */,
+				E8B256BD1B01AE8C00C3089C /* Test.m in Sources */,
 				E8B2569B1B01AB9000C3089C /* AppDelegate.m in Sources */,
 				E8B256981B01AB9000C3089C /* main.m in Sources */,
 			);
